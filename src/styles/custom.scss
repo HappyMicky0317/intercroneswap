@@ -1,0 +1,20 @@
+
+$primary: #F3C914;
+$light: rgba(196, 196, 196, 0.1);
+$body-bg: rgba(196, 196, 196, 0.1);
+$pagination-bg: rgba(196, 196, 196, 0.1);
+$pagination-hover-bg: #F3C914;
+$pagination-active-bg: #F3C914;
+$pagination-disabled-bg: #F3C914;
+$pagination-color: #F3C914;
+$pagination-hover-color: rgb(34, 29, 29);
+$pagination-active-color: rgb(34, 29, 29);
+$pagination-disabled-color: rgb(34, 29, 29);
+$pagination-border: rgb(34, 29, 29);
+$pagination-active-border: rgb(34, 29, 29);
+$pagination-hover-border: rgb(34, 29, 29);
+$pagination-disabled-border: rgb(34, 29, 29);
+$form-select-bg: #FFFFFF;
+$bs-body-font-family: Poppins;
+
+@import '~bootstrap/scss/bootstrap.scss';

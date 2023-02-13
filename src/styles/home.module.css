@@ -1,0 +1,42 @@
+.box{
+    background: #2B2B2B;
+    border-radius: 10px;
+    height: 200px;
+    position: relative;
+    padding: 70px;
+}
+.icon{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    top: 0;
+}
+.chessicon{
+    position: absolute;
+    top: -150px;
+    right: -175px;
+    width: 40% !important;
+}
+
+@media (max-width: 768px) {
+    .box {
+      height: unset;
+      padding: 15px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .icon{
+    left: 0;
+    width: 30px;
+    top: 50%;
+    }
+    .imagestyle{
+        width: 50% !important;
+      position: absolute;
+      left: -55px;
+      bottom: -80px;
+    }
+  }

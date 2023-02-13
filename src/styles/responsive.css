@@ -1,0 +1,176 @@
+@media only screen and (max-width: 768px) {
+    footer .row>*{
+        width: 50%;
+    }
+    footer .lastcol{
+        margin-top: 20px;
+    }
+    header .navbar-nav{
+        padding: 20px;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .containerstyle{
+        margin-top: unset;
+        margin-bottom: unset;
+        padding: 20px;
+    }
+    #mainheader .navbar-light .navbar-nav .nav-link {
+        
+        padding: unset;
+    
+    }
+    span.navbar-brand {
+        position: absolute;
+        left: 50%;
+        top: 30px;
+        transform: translate(-50%, -50%);
+    }
+    .tokenname {
+      
+        margin-top: 0;
+        margin-left: 0;
+    }
+    div#basic-nav-dropdowns{
+        width: 125px;
+        height: unset;
+    }
+    .hideinmobile {
+        display: none !important;
+    }
+    .hideindesktop{
+        display: unset;
+        position: unset;
+    }
+    .lptext{
+        padding-bottom: unset !important;
+    margin-bottom: unset !important;
+    }
+    .lockedvalue {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+    }
+    #liqimp{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    #liqimp a{
+        flex-grow: unset;
+    }
+    #liqimp a button{
+        font-size: 14px;
+        padding: unset;
+        width: 120px;
+        height: 35px;
+        color: #000000;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+    }
+    #lpv{
+        display: flex;
+        justify-content: space-around;
+    }
+    #lpv p{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+color: #FFFFFF;
+    }
+    #lpv span, .lockval{
+      color:  #F3C914
+    }
+    #liquidcard{
+        padding: 15px;
+    }
+    #lightcard{
+        padding: 15px; 
+    }
+    #tokenwithimg img{
+        width: 15px;
+        height: 15px;
+    }
+    .lctext{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+    }
+    #liquidcard .lcamount{
+        margin: unset;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        color: #F3C914;
+    }
+    #liquidcard .lcamount img{
+        margin-left: 10px;
+        width: 16px;
+        height: 16px;
+    }
+    #liquidcard .poolcard{
+        background: unset;
+        padding: unset !important;
+    }
+    #liquidcard .poolbtn{
+        margin-top: 20px;
+    }
+    #liquidcard .poolbtn a{
+        padding: 5px;
+        width: 42%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+
+
+color: #000000;
+    }
+    #liquidcard .poolcardtextbox {
+        display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    }
+    #liquidcard .poolcardtextbox .autocol{
+        display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    }
+    #liquidcard .poolcardtextbox .rowfix{
+        width: unset !important;
+    }
+    #exteralink a{
+        font-size: 12px;
+    }
+    #exteralink img{
+        width: 12px;
+    }
+    #liqprotext .yellowcolor, #liqprotext .yellowcolor a{
+        color: #FFB807;
+    }
+    #liqprotext .underline{
+        text-decoration: underline;
+    }
+
+  }
+
+  @media only screen and (min-width: 1600px) {
+    .containerstyle {
+        margin-top: -260px;
+    }
+  }

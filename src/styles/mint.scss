@@ -1,0 +1,213 @@
+.title {
+    margin-top: 50px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 72px;
+    background: linear-gradient(90deg, #FFB807 27.4%, #FFEA00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+
+#bot {
+    margin-top: 50px;
+    background: #232323;
+    border-radius: 8px;
+    padding: 50px;
+
+    h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FAFAFA;
+        text-align: center;
+    }
+
+    .images {
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+
+        .imgparent {
+            display: flex;
+
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            div {
+                position: relative;
+            }
+
+            .arrow {
+                position: absolute;
+                top: -18px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 20px;
+                text-align: center;
+                color: #FAFAFA;
+            }
+
+            img {
+                margin-bottom: 40px;
+            }
+        }
+
+    }
+
+    .buymint {
+        width: 50%;
+        margin: 0 auto;
+
+        p {
+            text-align: center;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 60px;
+            color: #FAFAFA;
+
+        }
+
+        .plusminus {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+
+            input {
+                width: 72px;
+                height: 64px;
+                text-align: center;
+                padding: unset;
+                margin: unset;
+            }
+
+            button {
+                width: 72px;
+                border: none;
+                font-size: 34px;
+                height: 64px;
+                background: linear-gradient(90deg, #FFB807 0%, #FFEA00 100%);
+                border-radius: 8px;
+                margin: 0 10px;
+            }
+        }
+
+        .mintnft {
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            input {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                height: 60px;
+                text-align: center;
+                color: #FAFAFA;
+                border: 1px solid #FFB807;
+                background: transparent;
+                margin-right: -15px;
+                border-radius: 8px 0 0 8px;
+
+            }
+
+            button {
+                background: linear-gradient(90deg, #FFB807 0%, #FFEA00 100%);
+                border-radius: 0 8px 8px 0;
+                width: 172px;
+                font-size: 18px;
+                height: 64px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 24px;
+    }
+
+    #bot {
+        margin-top: unset;
+        padding: 20px;
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .images {
+            .imgparent {
+                p {
+                    font-size: 14px;
+                }
+
+                max-width: 20%;
+
+                div {
+                    img {
+                        width: unset;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .buymint {
+            width: unset;
+
+            .plusminus {
+                button {
+                    width: 50px;
+                    font-size: 20px;
+                    height: 35px;
+                }
+
+                input {
+                    width: 50px;
+                    font-size: 20px;
+                    height: 35px;
+                }
+            }
+
+            .mintnft {
+                input {
+                    width: 150px;
+                    height: 35px;
+                }
+
+                button {
+                    width: 150px;
+                    height: 40px;
+                }
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,105 @@
+#mainheader {
+  width: 100%;
+}
+#mainheader .navbar-light .navbar-nav .nav-link {
+  color: rgba(243, 201, 20, 1);
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+#mainheader .navbar-light .navbar-nav .nav-link:hover {
+  background: #424242;
+  border-radius: 8px;
+}
+
+.tokenname {
+  color: rgba(255, 0, 19, 1);
+  margin-top: -10px;
+  margin-left: -16px;
+}
+a#basic-nav-dropdowns {
+  padding: unset;
+  margin-left: 5px;
+}
+div#basic-nav-dropdowns {
+  position: absolute;
+  left: 0;
+  width: 210px;
+  height: 250px;
+  z-index: 99999999;
+  background: linear-gradient(180deg, #3b3b3b 0%, #1d1d1d 100%);
+  padding: 10px;
+  filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.5));
+  border-radius: 8px;
+  top: 60px;
+}
+div#basic-nav-dropdowns p {
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 18px 0 18px;
+}
+.trxlogo span {
+  color: #ff0013 !important;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.bttlogo span {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff !important;
+}
+.bsclogo {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f0b90b !important;
+}
+div#basic-nav-dropdowns a {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+div#basic-nav-dropdowns a:hover {
+  background: #333333;
+  border-radius: 8px;
+}
+div#basic-nav-dropdowns .active {
+  background: #333333;
+  border-radius: 8px;
+}
+
+.bsclogo:hover {
+  color: #f3c914;
+}
+
+#mainheader .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#mainheader .yestoggle .navbar-toggler-icon {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAlBAMAAAA3sD0wAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAADBQTFRFAAAA////////////////////////////////////////////////////////////O00EMAAAABB0Uk5TACAQv/9/b+/fcI9An5CwYNuaKo4AAADHSURBVHicZdG7CQJBFIXhoyBoJkYbCrawHXgFNxEDe7AOwcQuDCzA0NASRGxGMNh5zznrJsNePhjuP8ACf9/K9vJ/vAA32/BoYnZHawIPZk98jKFj9kJjDB3bzjE6E/Ts5E6GkYFhZgwzI1hZhZUVyCxDZgkqi7AVFuGARagsQWU+rdlVR/5SDR5WMA0e2QD6FR4KwwoSPAeRl0mbCsxBCJYgBGu3AqlbgZw3QcnrYQdMpZuD6zCjbg7ugJnmbYL4vbnG+LtED0yfVGBBXMlAAAAAAElFTkSuQmCC');
+  width: 20px;
+  margin-left: -25px;
+}
+.dropdown-toggle::after {
+  color: rgba(243, 201, 20, 1);
+}
+.containerstyle {
+  margin-top: -120px;
+  margin-bottom: 50px;
+}
+.containerstyle .box a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+button.navbar-toggler:focus {
+  box-shadow: unset;
+}

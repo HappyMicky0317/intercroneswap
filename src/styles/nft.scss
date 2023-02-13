@@ -1,0 +1,382 @@
+@keyframes tilt-n-move-shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.background-image {
+    background-image: url('../assets//images/supermassive-star-galaxy-cosmos-physical-scien.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+
+    .anime {
+        width: 100%;
+        position: absolute;
+        left: 60%;
+        top: 10%;
+    }
+
+    .textandbtn {
+        position: absolute;
+        left: 5%;
+        top: 20%;
+        width: 60%;
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 56px;
+            line-height: 72px;
+            background: linear-gradient(90deg, #FFB807 27.4%, #FFEA00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+
+        }
+
+        button {
+            background: linear-gradient(90deg, #FFB807 8.49%, #FFEA00 100%);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 40px;
+            gap: 10px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.textwriting {
+    margin-top: -150px !important;
+
+    p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #F1F5F8;
+    }
+}
+
+.toons {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 300px 50px;
+    gap: 10px;
+    background: #333333;
+    border-radius: 20px;
+    margin-top: 50px;
+
+    .arrowone {
+        position: absolute;
+        top: 100px;
+
+    }
+
+    .arrowtwo {
+        position: absolute;
+        bottom: 100px;
+
+    }
+
+    .one {
+        img {
+            width: 150px !important;
+        }
+    }
+
+    .toon {
+
+        img {
+            width: 300px;
+        }
+
+        .text,
+        .amt {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 55px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+}
+
+#arbitron {
+    margin-top: 50px;
+    align-items: center;
+
+    h3 {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 72px;
+        background: linear-gradient(360deg, #FFB807 38.83%, #FFEA00 79.17%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: #FFFFFF;
+    }
+
+    button {
+        background: linear-gradient(90deg, #FFB807 8.49%, #FFEA00 100%);
+        border-radius: 8px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #000000;
+        border: none;
+        padding: 16px 40px;
+    }
+}
+
+#faq {
+    margin-top: 50px;
+
+    h3 {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 72px;
+        background: linear-gradient(90deg, #FFB807 27.4%, #FFEA00 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-align: center;
+    }
+
+    h2 {
+        background: unset;
+        border-radius: 24px;
+
+        button {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            color: #FFFFFF;
+            border-radius: 24px;
+        }
+    }
+
+    .accordion {
+        margin-top: 20px;
+
+        .accordion-item {
+            margin-top: 20px;
+            border-radius: 24px;
+
+            .active {
+                border-radius: 24px 24px 0 0;
+            }
+
+            .accordion-button:not(.collapsed) {
+                background: linear-gradient(90deg, #FFB807 28.96%, #FFEA00 100%);
+                color: #000000;
+                border: unset;
+                outline: unset;
+                border-radius: 24px 24px 0 0;
+            }
+        }
+    }
+
+    .accordion-collapse {
+        background: linear-gradient(90deg, #FFB807 28.96%, #FFEA00 100%);
+        border-radius: 0 0 24px 24px;
+
+        .accordion-body {
+            border-radius: 0 0 24px 24px;
+        }
+    }
+}
+
+.joincom {
+    margin: 50px auto;
+    width: 60%;
+
+    h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 72px;
+        background: linear-gradient(90deg, #FFB807 23.87%, #FFEA00 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .background-image {
+        height: 450px;
+
+        .anime {
+            margin: 50px auto;
+            text-align: center;
+            position: unset;
+
+            img {
+                width: 200px;
+            }
+        }
+
+        .textandbtn {
+            width: 90%;
+            position: unset;
+            margin: 0 auto;
+
+            p {
+                font-size: 22px;
+                text-align: center;
+                line-height: unset;
+            }
+
+            button {
+                border-radius: 8px;
+                padding: 2px 20px;
+            }
+        }
+    }
+
+    .textwriting {
+        margin-top: 20px !important;
+
+        p {
+            padding: 10px;
+            line-height: unset;
+            font-size: 22px;
+            text-align: justify;
+        }
+    }
+
+    .toons {
+        margin-top: 25px;
+        padding: 75px 50px;
+
+        .arrowone {
+            top: 10px;
+
+            img {
+                width: 200px;
+            }
+        }
+
+        .arrowtwo {
+            bottom: 10px;
+
+            img {
+                width: 200px;
+            }
+        }
+
+        .one {
+            img {
+                width: 70px !important;
+            }
+        }
+
+        .toon {
+            img {
+                width: 100px;
+            }
+
+            .text {
+                font-size: 18px;
+                line-height: unset;
+            }
+
+            .amt {
+                font-size: 18px;
+                line-height: unset;
+            }
+        }
+    }
+
+    #arbitron {
+        margin-top: 25px;
+
+        img {
+            width: 200px;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+
+        h3 {
+            font-size: 36px;
+            line-height: unset;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        button {
+            border-radius: 8px;
+            padding: 2px 20px;
+            margin: 0 auto;
+            text-align: center;
+            display: block;
+        }
+    }
+
+    #faq {
+        h3 {
+            font-size: 36px;
+            line-height: unset;
+            text-align: center;
+        }
+
+        h2 {
+            button {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .joincom {
+        width: 90%;
+        margin-bottom: unset;
+
+        h2 {
+            font-size: 36px;
+            line-height: unset;
+            text-align: center;
+
+        }
+    }
+}

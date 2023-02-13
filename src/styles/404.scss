@@ -1,0 +1,100 @@
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+#notfound {
+    margin-top: 100px;
+   
+    h2{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 72px;
+    text-align: center;
+    text-transform: lowercase;
+    background: linear-gradient(90deg, #FFB807 27.4%, #FFEA00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+    .content{
+        margin-top: 100px;
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 30px;
+            color: #FFFFFF;
+        
+            }
+            .redirectbtns{
+                margin-top: 100px;
+                display: flex;
+                flex-direction: column;
+                button{
+                background: linear-gradient(90deg, #FFB807 8.49%, #FFEA00 100%);
+                border-radius: 8px;
+                padding: 16px 40px;
+                width: 100%;
+                gap: 10px;
+                margin-bottom: 20px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 28px;
+                color: #000000;
+                border: unset;
+                }
+            }
+            .notfoundimg {
+                width: 100%;
+                animation: tilt-shaking 5s linear infinite;
+            }
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    #notfound {
+        margin-top: 50px;
+        h2{
+            font-size: 20px;
+            line-height: unset;
+        }
+        .content{
+            margin-top: 20px;
+            flex-direction: column-reverse;
+            p{
+                margin-top: 25px;
+                font-size: 16px;
+            line-height: unset;
+            text-align: center;
+            }
+            .redirectbtns{
+                margin-top: 30px;
+                a{
+                    text-align: center;
+                }
+                button{
+                    padding: 10px 34px;
+                    font-size: 14px;
+                    line-height: unset;
+                    width: 70%;
+                    margin: 5px auto;
+                }
+            }
+            .notfoundimg {
+                width: 100%;
+                
+               
+            }
+        }
+    }
+}

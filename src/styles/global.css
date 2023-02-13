@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600&display=swap');
+hr:not([size]) {
+    height: 2px;
+    background: rgba(255, 255, 255, 0.22);
+}
+
+iframe{
+    display: none;
+}
+.hideindesktop{
+    display: none ;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+@media only screen and (max-width: 767px) {
+    #open-settings-dialog-button{
+        padding: 3px 15px;
+        height: 41px;
+    }
+    .balance {
+        font-size: 16px !important;
+    }
+    #open-settings-dialog-button span {
+        font-size: 14px;
+    }
+    #swap-page .open-currency-select-button{
+        width: auto;
+        text-transform: uppercase;
+    }
+    #swap-page .open-currency-select-button, #swap-page input[type="number"]{
+        padding: 3px 15px;
+        height: 41px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+        border-radius: 12px;
+        margin-top: 15px!important;
+        background: rgba(35,35,35,1);
+        margin-bottom: 15px;
+    }
+    #swap-page .open-currency-select-button img{
+        /* background: #FF0013;
+        border-radius: 100px;
+        padding: 5px; */
+    }
+    .balanceDigit{
+        font-size: 24px;
+        font-weight: 400;
+        color: #fff;
+    }
+    .tokenBg{
+    
+    }
+    .submtBtn{ 
+        margin-top: 0!important;
+    }
+    .submtBtn button{
+        padding: 10px 20px;
+        width: auto;
+        margin: 0 auto;
+        border-radius: 8px;
+        height: 48px;
+        font-weight: 600;
+    }
+    
+}
+
+
+
+
